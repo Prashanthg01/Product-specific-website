@@ -1,0 +1,126 @@
+body {
+  font-family: acumin-pro, system-ui, sans-serif;
+}
+.spinfo {
+  color: #215f0ec7;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 15px;
+}
+.spmain {
+  display: flex;
+  margin: 0px 10%;
+}
+.spimg img {
+  width: 450px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.spdisp {
+  padding: 10px;
+  margin: 0px 10%;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px,
+    rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+  border-radius: 10px;
+}
+.spdisp h3 {
+  margin: 2px;
+}
+.spdetails div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.spdetails div h1 {
+  margin: 0;
+}
+.spdetails div p {
+  text-decoration: line-through;
+  margin: 0;
+}
+.spdetails div h3 {
+  color: green;
+  margin: 0;
+}
+.spdetails p span {
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5px 25px;
+  color: #fff;
+  -webkit-clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 100%
+  );
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: 0.2s 0.1s;
+  background-image: linear-gradient(90deg, #1c1c1c, #20fb3b);
+  border: 0 solid;
+  overflow: hidden;
+}
+.smallhedding {
+  font-weight: 600;
+  font-size: 17px;
+  color: #215f0e;
+  margin: 7px 0px;
+}
+.prize {
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5px 15px;
+  color: #fff;
+  -webkit-clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    15px 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 17px) 100%,
+    15px 100%,
+    0 100%
+  );
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: 0.2s 0.1s;
+  background-image: linear-gradient(90deg, #161a91, #7420fb);
+  border: 0 solid;
+  overflow: hidden;
+  display: initial;
+  margin: 7px 0px;
+}
